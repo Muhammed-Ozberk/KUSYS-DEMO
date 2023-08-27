@@ -1,0 +1,32 @@
+/* Styling for the matches list */
+.matches-list {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Title of the matches list */
+.matches-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Styling for the matches table */
+.matches-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+/* Styling for table headers and table cells */
+.matches-table th, .matches-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+/* Styling for table headers */
+.matches-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}

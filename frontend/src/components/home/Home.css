@@ -1,0 +1,118 @@
+/* Container for the main content */
+.container {
+  background-color: #f3f3f3;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Styles for the options bar at the top */
+.options-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+/* Generic button styles */
+.button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Styles for the 'Add' button */
+.add-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+/* Styles for the 'Match' button */
+.match-button {
+  background-color: #007bff;
+  color: white;
+  margin-left: 10px;
+}
+
+.match-button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for the display options */
+.display-option {
+  padding: 5px;
+  font-size: 16px;
+}
+
+/* Main content area */
+.content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1; /* Grow to fill available space */
+    margin-bottom: 20px; 
+}
+
+/* Styles for student items */
+.student-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.student-item:hover {
+  background-color: #f9f9f9;
+}
+
+/* Styles for matched student items */
+.matched-student-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f3f3f3;
+}
+
+/* Modal overlay */
+.modal {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content */
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 100%;
+  position: relative;
+}
+
+/* Close button for the modal */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #888;
+}

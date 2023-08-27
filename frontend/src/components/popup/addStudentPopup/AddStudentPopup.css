@@ -1,0 +1,64 @@
+/* Styling for the container holding the popup */
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background overlay */
+}
+
+/* Styling for the popup itself */
+.popup {
+  background-color: white; /* Background color of the popup */
+  border-radius: 8px; /* Rounded corners for the popup */
+  padding: 20px; /* Padding around the popup content */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for a subtle depth effect */
+  width: 300px; /* Width of the popup */
+}
+
+/* Styling for the popup's heading */
+.popup h2 {
+  margin-top: 0; /* Removes margin from the top of the heading */
+}
+
+/* Styling for labels within the popup */
+.popup label {
+  display: block; /* Labels are block elements */
+  margin-bottom: 5px; /* Spacing below each label */
+}
+
+/* Styling for input fields within the popup */
+.popup input {
+  width: 100%; /* Input fields take full width of the popup */
+  padding: 8px; /* Padding inside the input fields */
+  border: 1px solid #ccc; /* Border for the input fields */
+  border-radius: 4px; /* Rounded corners for input fields */
+  margin-bottom: 10px; /* Spacing below each input field */
+}
+
+/* Styling for the button container within the popup */
+.button-container {
+  display: flex; /* Buttons are displayed in a row */
+  justify-content: flex-end; /* Buttons are right-aligned */
+}
+
+/* Styling for buttons within the button container */
+.button-container button {
+  background-color: #007bff; /* Background color of the buttons */
+  color: white; /* Text color of the buttons */
+  padding: 8px 16px; /* Padding inside the buttons */
+  border: none; /* No border for the buttons */
+  border-radius: 4px; /* Rounded corners for the buttons */
+  cursor: pointer; /* Cursor style on hover */
+  margin-left: 10px; /* Spacing between buttons */
+}
+
+/* Styling for the last button within the button container */
+.button-container button:last-child {
+  background-color: #ccc; /* Background color for the last button */
+  color: black; /* Text color for the last button */
+}

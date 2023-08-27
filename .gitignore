@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# Build
+/build
+/dist
+
+# Backend dependencies
+/backend/node_modules
+
+# Environment files
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# Compiled output
+/frontend/build
+/frontend/out
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.swp
+*~
+
+# Database
+*.sqlite

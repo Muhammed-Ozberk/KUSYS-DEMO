@@ -1,0 +1,48 @@
+/* Styling for the container holding the login form */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Sets the container height to fill the viewport */
+  background-color: #f0f0f0; /* Background color for the container */
+}
+
+/* Styling for the login form itself */
+.login-form {
+  background-color: white; /* Background color of the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for a subtle depth effect */
+  padding: 20px; /* Padding around the form content */
+  width: 300px; /* Width of the form */
+}
+
+/* Styling for the form's heading */
+.login-form h2 {
+  margin-bottom: 15px; /* Adds spacing below the heading */
+}
+
+/* Styling for the input fields */
+.login-form input {
+  width: 95%; /* Input fields take full width of the form */
+  padding: 10px; /* Padding inside the input fields */
+  margin-bottom: 15px; /* Spacing between input fields */
+  border: 1px solid #ccc; /* Border for the input fields */
+  border-radius: 4px; /* Rounded corners for input fields */
+}
+
+/* Styling for the submit button */
+.login-form button {
+  width: 100%; /* Button takes full width of the form */
+  padding: 10px; /* Padding inside the button */
+  background-color: #007bff; /* Background color of the button */
+  color: white; /* Text color of the button */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners for the button */
+  cursor: pointer; /* Cursor style on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color change */
+}
+
+/* Styling for the submit button on hover */
+.login-form button:hover {
+  background-color: #0056b3; /* Darker background color when hovering */
+}
